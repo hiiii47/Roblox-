@@ -49,10 +49,6 @@
 			flex-basis: 41.6666666667%
 		}
 
-		.bee-row-content .bee-col-w6 {
-			flex-basis: 50%
-		}
-
 		.bee-row-content .bee-col-w7 {
 			flex-basis: 58.3333333333%
 		}
@@ -77,13 +73,12 @@
 			margin: 0 auto
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-1 {
+		.bee-row-1 .bee-col-1 .bee-block-1 {
 			width: 100%
 		}
 
 		.bee-row-1 .bee-row-content,
-		.bee-row-2 .bee-row-content,
-		.bee-row-3 .bee-row-content {
+		.bee-row-2 .bee-row-content {
 			background-repeat: no-repeat;
 			border-radius: 0;
 			color: #000000
@@ -99,20 +94,17 @@
 		}
 
 		.bee-row-1,
-		.bee-row-2,
-		.bee-row-3 {
+		.bee-row-2 {
 			background-repeat: no-repeat
 		}
 
 		.bee-row-1 .bee-row-content {
-			padding-bottom: 15px;
-			padding-top: 15px
+			padding-bottom: 60px;
+			padding-top: 60px
 		}
 
 		.bee-row-1 .bee-col-1,
-		.bee-row-1 .bee-col-2,
-		.bee-row-2 .bee-col-1,
-		.bee-row-2 .bee-col-2 {
+		.bee-row-1 .bee-col-2 {
 			padding-bottom: 5px;
 			padding-top: 5px;
 			display: flex;
@@ -120,18 +112,13 @@
 			justify-content: center
 		}
 
-		.bee-row-2 .bee-row-content {
-			padding-bottom: 60px;
-			padding-top: 60px
-		}
-
-		.bee-row-2 .bee-col-1 .bee-block-2 {
+		.bee-row-1 .bee-col-1 .bee-block-2 {
 			padding: 10px;
 			text-align: center;
 			width: 100%
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-3 {
+		.bee-row-1 .bee-col-1 .bee-block-3 {
 			padding: 10px;
 			color: #ffffff;
 			direction: ltr;
@@ -143,25 +130,25 @@
 			text-align: center
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-5 {
+		.bee-row-1 .bee-col-1 .bee-block-5 {
 			padding: 10px;
 			text-align: center
 		}
 
-		.bee-row-3 .bee-col-1 {
+		.bee-row-2 .bee-col-1 {
 			padding-bottom: 5px;
 			padding-top: 5px
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-3 a {
+		.bee-row-1 .bee-col-1 .bee-block-3 a {
 			color: #8a3b8f
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-3 p:not(:last-child) {
+		.bee-row-1 .bee-col-1 .bee-block-3 p:not(:last-child) {
 			margin-bottom: 16px
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-2 h3 {
+		.bee-row-1 .bee-col-1 .bee-block-2 h3 {
 			color: #7747FF;
 			direction: ltr;
 			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
@@ -178,37 +165,33 @@
 			}
 
 			.bee-row-1 .bee-row-content {
-				padding: 15px !important
-			}
-
-			.bee-row-2 .bee-row-content {
 				padding-top: 5px !important;
 				padding-bottom: 45px !important
 			}
 
-			.bee-row-3 .bee-col-1 .bee-block-1 {
+			.bee-row-2 .bee-col-1 .bee-block-1 {
 				height: 35px !important
 			}
 
-			.bee-row-2 .bee-col-1 .bee-block-2 h3 {
+			.bee-row-1 .bee-col-1 .bee-block-2 h3 {
 				font-size: 40px
 			}
 
-			.bee-row-2 .bee-col-1 .bee-block-5 .bee-button-content {
+			.bee-row-1 .bee-col-1 .bee-block-5 .bee-button-content {
 				font-size: initial !important;
 				line-height: normal !important;
 				text-align: center !important
 			}
 
-			.bee-row-2 .bee-col-1 .bee-block-5 a,
-			.bee-row-2 .bee-col-1 .bee-block-5 span {
+			.bee-row-1 .bee-col-1 .bee-block-5 a,
+			.bee-row-1 .bee-col-1 .bee-block-5 span {
 				text-align: center !important;
 				font-size: 16px !important;
 				line-height: auto !important
 			}
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-5 a:hover {
+		.bee-row-1 .bee-col-1 .bee-block-5 a:hover {
 			background-color: transparent !important;
 			border-bottom: 1px solid #cde6eb !important;
 			border-left: 1px solid #cde6eb !important;
@@ -217,7 +200,7 @@
 			color: #cde6eb !important
 		}
 
-		.bee-row-2 .bee-col-1 .bee-block-5 a {
+		.bee-row-1 .bee-col-1 .bee-block-5 a {
 			background-color: #cde6eb;
 			border-bottom: 1px solid #cde6eb;
 			border-left: 1px solid #cde6eb;
@@ -240,12 +223,6 @@
 <body>
 	<div class="bee-page-container">
 		<div class="bee-row bee-row-1">
-			<div class="bee-row-content no_stack">
-				<div class="bee-col bee-col-1 bee-col-w6"></div>
-				<div class="bee-col bee-col-2 bee-col-w6"></div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-2">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w5">
 					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="Early access" class="bee-center bee-autowidth" src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/ge6dnk7k/ed4/rw2/37e/1691173864951.png" style="max-width:470px;" /></a></div>
@@ -266,7 +243,7 @@
 				<div class="bee-col bee-col-2 bee-col-w7"></div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-3">
+		<div class="bee-row bee-row-2">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-spacer">
